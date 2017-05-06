@@ -1,6 +1,14 @@
 function main(container)
 {
+    // let asdf = document.body.childNodes[2];
+    // let asdf = document;
+    // let br = asdf.ownerDocument.createElement('br');
     // Checks if the browser is supported
+    // var node = document.createElement('div');
+    var node = document.createElementNS(mxConstants.NS_SVG, 'rect');
+	// 	node.style.position = 'absolute';
+    var asdf = new mxShape(new mxStencil("asd"));
+    
     if (!mxClient.isBrowserSupported())
     {
         // Displays an error message if the browser is not supported.
@@ -77,9 +85,9 @@ function main(container)
             var v4 = graph.insertVertex(parent, null, targetNode.cloneNode(true), 200, 140, 80, 30);
             var v5 = graph.insertVertex(parent, null, subtargetNode, 200, 200, 80, 30);
             var v6 = graph.insertVertex(parent, null, sourceNode.cloneNode(true), 20, 140, 80, 30);
-            var e1 = graph.insertEdge(parent, null, '', v1, v2);
-            var e2 = graph.insertEdge(parent, null, '', v1, v3);
-            var e3 = graph.insertEdge(parent, null, '', v6, v4);
+            var e1 = graph.insertEdge(parent, null, <String>'', v1, v2);
+            var e2 = graph.insertEdge(parent, null, <String>'', v1, v3);
+            var e3 = graph.insertEdge(parent, null, <String>'', v6, v4);
             //var e4 = graph.insertEdge(parent, null, '', v1, v4);
         }
         finally

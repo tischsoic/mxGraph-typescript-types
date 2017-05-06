@@ -1,0 +1,11 @@
+{
+//    "compilerOptions": {
+//        "typeRoots" : []
+//    },
+   "files": [
+    "code.ts",
+    "code/boundary.ts",
+    "code/",
+    "global.d.ts"
+  ]
+}

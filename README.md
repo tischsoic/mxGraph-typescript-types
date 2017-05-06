@@ -1,6 +1,11 @@
 # mxgraph-typescript-definitions
 
-Typescript definitions for mxgraph library. Is anyone need? star this or email me for collaboration.
+To run build first You must run command:
+``
+npm install -g typescript
+``
+
+<!--Typescript definitions for mxgraph library. Is anyone need? star this or email me for collaboration.
 
 Definitions devided to modules equal to official api documentation's packages:
     https://jgraph.github.io/mxgraph/docs/js-api/files/index-txt.html
@@ -15,4 +20,4 @@ Definitions devided to modules equal to official api documentation's packages:
         interface CommonUtilInterface { }
     }
 
-    Now definitions are poor. A lot of <any> types and empty classes. Feel free to get some donkey work typing 80000 lines of code.
+    Now definitions are poor. A lot of <any> types and empty classes. Feel free to get some donkey work typing 80000 lines of code.-->
