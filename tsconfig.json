@@ -1,11 +1,8 @@
 {
-//    "compilerOptions": {
-//        "typeRoots" : []
-//    },
-   "files": [
-    "code.ts",
-    "code/boundary.ts",
-    "code/",
-    "global.d.ts"
+  //    "compilerOptions": {
+  //        "typeRoots" : []
+  //    },
+  "files": [
+    "index.d.ts"
   ]
 }
