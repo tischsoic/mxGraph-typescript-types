@@ -1,4 +1,4 @@
-declare module "mxgraph" {
+declare module "mxgraphAllClasses" {
 
 	/**
 	 * Copyright (c) 2006-2015, JGraph Ltd
