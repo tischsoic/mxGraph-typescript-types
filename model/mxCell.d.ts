@@ -284,7 +284,7 @@ class mxCell {
 	 *
 	 * Sets the string to be used as the <style>.
 	 */
-	setStyle(style: string): void;
+	setStyle(style: string): void; // TODO: shouldn't it be: `style: [string, any][]`
 	// {
 	// 	this.style = style;
 	// };

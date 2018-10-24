@@ -4153,8 +4153,8 @@ declare module "mxgraphAllClasses" {
 		 * getDropTarget - Optional function to return the drop target for a given
 		 * location (x, y). Default is mxGraph.getCellAt.
 		 */
-		makeDraggable(element: Node, graphF: mxGraph, funct, dragElement?: Node, dx?: number, dy?: number, autoscroll?: boolean,
-			scalePreview?: number, highlightDropTargets?: number, getDropTarget?): mxDragSource;
+		makeDraggable(element: Node, graphF: mxGraph | (() => mxGraph), funct, dragElement?: Node, dx?: number, dy?: number, autoscroll?: boolean,
+			scalePreview?: boolean, highlightDropTargets?: number, getDropTarget?): mxDragSource;
 		// {
 		// 	var dragSource = new mxDragSource(element, funct);
 		// 	dragSource.dragOffset = new mxPoint((dx != null) ? dx : 0,
