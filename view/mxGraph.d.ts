@@ -2976,7 +2976,7 @@ export class mxGraph extends mxEventSource {
 	 * ignoreHeight - Optional boolean that specifies if the height should be
 	 * ignored. Default is false.
 	 */
-	fit(border: number, keepOrigin: boolean, margin: number, enabled: boolean, ignoreWidth: boolean, ignoreHeight: boolean): number;
+	fit(border?: number, keepOrigin?: boolean, margin?: number, enabled?: boolean, ignoreWidth?: boolean, ignoreHeight?: boolean): number;
 	// {
 	// 	if (this.container != null)
 	// 	{
