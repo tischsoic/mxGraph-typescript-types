@@ -196,7 +196,7 @@ class mxCell {
 	 *
 	 * Returns the Id of the cell as a string.
 	 */
-	getId(): any;
+	getId(): string;
 	// {
 	// 	return this.id;
 	// };
