@@ -56,6 +56,8 @@ export class mxGraphSelectionModel extends mxEventSource {
 	// mxGraphSelectionModel.prototype = new mxEventSource();
 	// mxGraphSelectionModel.prototype.constructor = mxGraphSelectionModel;
 
+	cells: mxCell[]
+
 	/**
 	 * Variable: doneResource
 	 * 
