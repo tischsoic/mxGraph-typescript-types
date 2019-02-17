@@ -3477,7 +3477,7 @@ export class mxGraph extends mxEventSource {
 	 * cells - Optional array of <mxCells> to change the style for. Default is
 	 * the selection cells.
 	 */
-	setCellStyles(key: string, value: string, cells?: mxCell[]): void;
+	setCellStyles(key: string, value: string | number, cells?: mxCell[]): void;
 	// {
 	// 	cells = cells || this.getSelectionCells();
 	// 	mxUtils.setCellStyles(this.model, cells, key, value);
